@@ -33,7 +33,7 @@ function testarCadastro() {
     localStorage.setItem("usuarioAtivo", JSON.stringify({ nome, email }));
 
     alert(`Cadastro e login bem-sucedido! Bem-vindo(a), ${nome.split(" ").slice(0, 2).join(" ")}!`);
-    window.location.href = "/index.html";
+    window.location.href = "https://yuribragajr.github.io/FIAP-Atv-4-interaction/index.html";
     return false;
 }
 
@@ -53,7 +53,7 @@ function realizarLogin() {
 
     localStorage.setItem("usuarioAtivo", JSON.stringify({ nome: usuarioEncontrado.nome, email }));
     alert(`Login bem-sucedido! Bem-vindo de volta, ${usuarioEncontrado.nome.split(" ").slice(0, 2).join(" ")}!`);
-    window.location.href = "/index.html";
+    window.location.href = "https://yuribragajr.github.io/FIAP-Atv-4-interaction/index.html";
     return false;
 }
 
